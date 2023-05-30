@@ -3,7 +3,7 @@ import React from "react";
 function AboutHero() {
   return (
     <div className="max-w-[1220px] mx-auto flex items-center mt-[150px] lg:mt-[100px] px-4">
-      <div className="min-h-screen items-center lg:flex lg:gap-5">
+      <div className="min-h-screen items-center lg:flex lg:gap-5" data-aos="zoom-in">
         <div className="basis-1/2">
           <p className="hidden lg:block text-2xl font-bold text-[#808080] #808080">
             About Us

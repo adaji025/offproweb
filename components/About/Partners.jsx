@@ -37,7 +37,7 @@ const items = [
 
 function Partners() {
   return (
-    <div className="max-w-screen-lg mx-auto mt-[104px] mb-10 px-4">
+    <div className="max-w-screen-lg mx-auto mt-[104px] mb-10 px-4" data-aos="fade-up">
       <p className="hidden lg:block text-center font-Cabinet_Grotesk text-[36px] text-[#6666FF]">
         Our Trusted Partners
       </p>

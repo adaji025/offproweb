@@ -27,7 +27,7 @@ const cards = [
 
 function Innovation() {
   return (
-    <div className="bg-[#F9FBFE] mt-10 font-Grotesk">
+    <div className="bg-[#F9FBFE] mt-10 font-Grotesk" data-aos="fade-up">
       <p className="text-center mx-auto font-bold pt-[96px] text-2xl w-[90%] lg:text-[36px] text-green">
         Turn collaboration into innovation
       </p>

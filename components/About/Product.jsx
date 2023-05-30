@@ -2,7 +2,7 @@ import React from "react";
 
 function Product() {
   return (
-    <div className="bg-green mt-10">
+    <div className="bg-green mt-10" data-aos="fade-up">
       <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex lg:flex-row gap-16 px-4 pt-6 pb-14 lg:py-24">
         <div className="basis-1/2">
           {" "}
