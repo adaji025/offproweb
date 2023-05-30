@@ -160,10 +160,14 @@ const cat = [
 
 function Faq() {
   const [questions] = React.useState(data);
+
   return (
     <>
       <div className="bg-[#F3FAF7] relative">
-        <div className="min-h-[263px] sm:min-h-[363px] xl:min-h-[463px] max-w-[1220px] mx-auto mt-[102px] flex justify-center items-center">
+        <div
+          className="min-h-[263px] sm:min-h-[363px] xl:min-h-[463px] max-w-[1220px] mx-auto mt-[102px] flex justify-center items-center"
+          data-aos="zoom-in"
+        >
           <div className="px-4 lg:px-0 ">
             <p className="text-green text-2xl lg:text-[36px] font-bold text-center mb-7 lg:mb-10">
               Frequently asked question
@@ -188,7 +192,7 @@ function Faq() {
           </span>
         ))}
       </div>
-      <main className="max-w-[1220px] mx-auto">
+      <main className="max-w-[1220px] mx-auto" data-aos="fade-up">
         <div className="px-10 mx-auto pb-20 md:py-20 mt-16 lg:mt-2">
           <section className="">
             {questions.map((question) => {

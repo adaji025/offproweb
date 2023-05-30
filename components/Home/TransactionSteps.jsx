@@ -3,7 +3,7 @@ import React from "react";
 const TransactionSteps = () => {
   return (
     <div className="bg-green pt-[46px] lg:pt-[140px] pb-40 lg:pb-[228px] -translate-y-[90px] md:-translate-y-[150px] px-4">
-      <div className=" max-w-[1220px] mx-auto px-4 lg:px-0">
+      <div className=" max-w-[1220px] mx-auto px-4 lg:px-0" data-aos="fade-up">
         <p className="text-center text-2xl font-bold sm:text-[40px] text-white">
           Transact in 3 Steps
         </p>

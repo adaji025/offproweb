@@ -161,7 +161,8 @@ const cat = [
 function Faq() {
   const [questions] = React.useState(data);
   return (
-    <div className="max-w-[1220px] mx-auto -translate-y-6  lg:-translate-y-20 px-4 lg:px-0">
+    <div className="max-w-[1220px] mx-auto -translate-y-6  lg:-translate-y-20 px-4 lg:px-0 mt-10"
+    data-aos="fade-up">
       <p className="text-green text-2xl lg:text-[36px] font-bold text-center">
         Frequently asked question
       </p>

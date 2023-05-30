@@ -8,7 +8,8 @@ import { FaFacebookF } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div class="max-w-[1220px] mx-auto mt-20 font-Grotesk px-6">
+    <div class="max-w-[1220px] mx-auto mt-20 font-Grotesk px-6"
+    data-aos="fade-up">
       <footer class="bg-white-200 text-black py-4">
         <div class="mb-4">
           <div className="flex flex-col lg:flex-row w-full lg:w-2/3 gap-6 justify-between lg:items-center mb-8">

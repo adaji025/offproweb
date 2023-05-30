@@ -29,8 +29,12 @@ const values = [
 
 function Connect() {
   return (
-    <div className="bg-[#F9FBFE]  -translate-y-[150px] pt-[73px] lg:pt-[150px] pb-[99px] px-4">
-      <div className="max-w-[1220px] mx-auto ">
+    <div
+      className="bg-[#F9FBFE]  -translate-y-[150px] pt-[73px] lg:pt-[150px] pb-[99px] px-4"
+      data-aos="zoom-in"
+    >
+      <div className="max-w-[1220px] mx-auto "
+      data-aos="fade-in">
         <div>
           <p className="text-green text-center lg:text-left font-bold text-2xl lg:text-[36px]">
             How to connect to the OPD

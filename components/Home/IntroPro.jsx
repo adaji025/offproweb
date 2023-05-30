@@ -1,8 +1,9 @@
 import React from "react";
 
-export function Card({ Img, title, content }) {
+export function Card({ Img, title, content, idx }) {
   return (
-    <div className="rounded-lg shadow-md p-6 basis-1/2">
+    <div className="rounded-lg shadow-md p-6 basis-1/2"
+    data-aos={idx === 0 ? "fade-right" : idx === 1 ? "fade-left": idx === 2 ? "fade-up" : "fade-down"}>
       <img src={Img} alt="phone-screen" />
       <p className="text-lg font-Cabinet_Grotesk mt-5">{title}</p>
       <p className="text-[#6B7280] mt-2">{content}</p>
@@ -39,7 +40,10 @@ const items = [
 
 function IntroPro() {
   return (
-    <div className="mt-[99px] max-w-screen-xl mx-auto px-4 lg:px-0">
+    <div
+      className="mt-[99px] max-w-screen-xl mx-auto px-4 lg:px-0 overflow-hidden"
+      data-aos="fade-up"
+    >
       <p className="text-center text-green font-bold text-[24px]  lg:text-[36px] leading-[44px] lg:leading-[44px]">
         Introducing OffPro
       </p>
@@ -55,13 +59,14 @@ function IntroPro() {
             alt="phone-screen"
           />
         </div>
-        <div className="basis-1/2 grid lg:grid-cols-2 gap-6 h-min ">
-          {items.map((item) => (
+        <div className="basis-1/2 grid lg:grid-cols-2 gap-6 h-min">
+          {items.map((item, idx) => (
             <Card
               key={item.id}
               Img={item.Img}
               title={item.title}
               content={item.content}
+              idx={idx}
             />
           ))}
         </div>
