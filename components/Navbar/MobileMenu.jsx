@@ -1,38 +1,40 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 const MobileMenu = ({ isMobileMenuOpen }) => {
+  const router = useRouter()
   return (
     <div
       className={`${
-        isMobileMenuOpen ? "block" : "hidden"
-      } absolute top-[100px] left-0 w-full bg-white shadow-lg z-20`}
+        isMobileMenuOpen ? "left-0" : "left-[-100%]"
+      } absolute top-[100px] left-0 w-full bg-green shadow z-20 transition-all duration-300`}
       id="mobile-menu"
     >
-      <div className="px-4 py-2">
-        <a
-          href="/about"
-          className="block text-gray-800 font-semibold py-2 hover:bg-gray-200"
+      <div className="px-4 py-5 h-[40vh] flex flex-col justify-center items-center text-white">
+        <div
+         onClick={() => router.push("/about")}
+          className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           About
-        </a>
-        <a
-          href="#"
-          className="block text-gray-800 font-semibold py-2 hover:bg-gray-200"
+        </div>
+        <div
+          onClick={() => router.push("/")}
+          className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           Device
-        </a>
-        <a
-          href="/faq"
-          className="block text-gray-800 font-semibold py-2 hover:bg-gray-200"
+        </div>
+        <div
+          onClick={() => router.push("/faq")}
+          className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           FAQ
-        </a>
-        <a
-          href="#"
-          className="block text-gray-800 font-semibold py-2 hover:bg-gray-200"
+        </div>
+        <div
+          onClick={() => router.push("/")}
+          className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           Contact Us
-        </a>
+        </div>
       </div>
     </div>
   );

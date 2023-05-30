@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import MobileMenu from "./MobileMenu";
 
 function NavBar() {
@@ -13,7 +13,7 @@ function NavBar() {
 
   return (
     <>
-      {isMobileMenuOpen && <MobileMenu {...{ isMobileMenuOpen }} />}
+      <MobileMenu {...{ isMobileMenuOpen }} />
       <div className="mx-auto font-Grotesk shadow sm:shadow-lg w-full bg-white fixed top-0 z-50">
         <nav className="flex items-center justify-between bg-white-200 text-black px-4 py-2 max-w-[1220px] mx-auto h-[100px]">
           <div className="cursor-pointer hover:scale-105 transition-all duration-300" onClick={() => router.push("/")}>
@@ -47,7 +47,7 @@ function NavBar() {
               className="md:hidden text-xl font-bold text-gray-800"
               onClick={handleMobileMenuClick}
             >
-              <FaBars size={24} />
+              {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </div>
           </div>
         </nav>
