@@ -30,7 +30,7 @@ const values = [
 function Connect() {
   return (
     <div
-      className="bg-[#F9FBFE]  -translate-y-[150px] pt-[73px] lg:pt-[150px] pb-[99px] px-4"
+      className="bg-[#F9FBFE]  -translate-y-[150px] pt-[73px] lg:pt-[150px] pb-[99px] px-4 overflow-hidden"
       data-aos="zoom-in"
     >
       <div className="max-w-[1220px] mx-auto "

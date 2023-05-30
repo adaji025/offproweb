@@ -2,8 +2,8 @@ import React from "react";
 
 function AboutHero() {
   return (
-    <div className="max-w-[1220px] mx-auto h-screen flex items-center mt-[150px] px-4">
-      <div className="h-screen items-center lg:flex lg:gap-5">
+    <div className="max-w-[1220px] mx-auto flex items-center mt-[150px] lg:mt-[100px] px-4">
+      <div className="min-h-screen items-center lg:flex lg:gap-5">
         <div className="basis-1/2">
           <p className="hidden lg:block text-2xl font-bold text-[#808080] #808080">
             About Us
@@ -19,7 +19,7 @@ function AboutHero() {
           </p>
         </div>
         <div className="basis-1/2">
-          <div className="flex lg:justify-end">
+          <div className="flex justify-center lg:justify-end">
             <img
               className="w-[90%]"
               src="/images/about-img.png"
