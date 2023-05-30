@@ -167,7 +167,7 @@ function Faq() {
       </p>
       <div className="flex gap-2 lg:gap-8 translate-y-[36px] text-[#6B7280] overflow-auto">
         {cat.map((item, idx) => (
-          <span className="hover:bg-green rounded-3xl px-4 pb-2 hover:text-white py-1 text-sm whitespace-nowrap">
+          <span className="flex items-center hover:bg-green rounded-3xl px-4 py-2 hover:text-white  text-sm whitespace-nowrap">
             {item}
           </span>
         ))}
