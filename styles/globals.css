@@ -14,3 +14,7 @@
 body {
   font-family: "Cabinet_Grotesk";
 }
+
+.banner {
+  background: url("../public/images/banner-bg.png");
+}

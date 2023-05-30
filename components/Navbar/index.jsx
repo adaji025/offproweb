@@ -14,8 +14,8 @@ function NavBar() {
   return (
     <>
       {isMobileMenuOpen && <MobileMenu {...{ isMobileMenuOpen }} />}
-      <div className="mx-auto mt-3 font-Grotesk shadow sm:shadow-lg w-full bg-white">
-        <nav className="flex items-center justify-between bg-white-200 text-black px-6 py-2 max-w-[1220px] mx-auto h-[100px]">
+      <div className="mx-auto font-Grotesk shadow sm:shadow-lg w-full bg-white fixed top-0 z-50">
+        <nav className="flex items-center justify-between bg-white-200 text-black px-4 py-2 max-w-[1220px] mx-auto h-[100px]">
           <div className="cursor-pointer" onClick={() => router.push("/")}>
             <img src="/svgs/logo.svg" alt="Logo" />
           </div>
@@ -44,7 +44,7 @@ function NavBar() {
               Contact Us
             </button>
             <div
-              className="md:hidden text-xl font-bold text-gray-800 ml-4"
+              className="md:hidden text-xl font-bold text-gray-800"
               onClick={handleMobileMenuClick}
             >
               <FaBars size={24} />
