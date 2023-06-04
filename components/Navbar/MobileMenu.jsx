@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
 
-const MobileMenu = ({ isMobileMenuOpen }) => {
+const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
   const router = useRouter()
   return (
     <div
@@ -12,25 +12,37 @@ const MobileMenu = ({ isMobileMenuOpen }) => {
     >
       <div className="px-4 py-5 h-min flex flex-col justify-center items-center text-white">
         <div
-         onClick={() => router.push("/about")}
+         onClick={() => {
+          router.push("/about")
+          setIsMobileMenuOpen(false)
+         }}
           className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           About
         </div>
         <div
-          onClick={() => router.push("/")}
+          onClick={() => {
+            router.push("/")
+            setIsMobileMenuOpen(false)
+          }}
           className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           Device
         </div>
         <div
-          onClick={() => router.push("/faq")}
+          onClick={() => {
+            router.push("/faq")
+            setIsMobileMenuOpen(false)
+          }}
           className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           FAQ
         </div>
         <div
-          onClick={() => router.push("/")}
+          onClick={() => {
+            router.push("/")
+            setIsMobileMenuOpen(false)
+          }}
           className="block text-gray-800 font-semibold py-2 hover:text-black/90 transition-all duration-300 cursor-pointer"
         >
           Contact Us

@@ -13,10 +13,13 @@ function NavBar() {
 
   return (
     <>
-      <MobileMenu {...{ isMobileMenuOpen }} />
+      <MobileMenu {...{ isMobileMenuOpen, setIsMobileMenuOpen }} />
       <div className="mx-auto font-Grotesk shadow sm:shadow-lg w-full bg-white fixed top-0 z-50">
         <nav className="flex items-center justify-between bg-white-200 text-black px-4 py-2 max-w-[1220px] mx-auto h-[100px]">
-          <div className="cursor-pointer hover:scale-105 transition-all duration-300" onClick={() => router.push("/")}>
+          <div
+            className="cursor-pointer hover:scale-105 transition-all duration-300"
+            onClick={() => router.push("/")}
+          >
             <img src="/svgs/logo.svg" alt="Logo" />
           </div>
           <div className="hidden md:flex items-center flex-1 justify-center gap-[32px] px-4 font-medium text-xl text-dark">
