@@ -7,7 +7,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
     <div
       className={`${
         isMobileMenuOpen ? "left-0" : "left-[-100%]"
-      } absolute top-[100px] left-0 w-full bg-green shadow z-20 transition-all duration-300 md:hidden`}
+      } fixed top-[100px] left-0 w-full bg-green shadow z-20 transition-all duration-300 md:hidden`}
       id="mobile-menu"
     >
       <div className="px-4 py-5 h-min flex flex-col justify-center items-center text-white">
