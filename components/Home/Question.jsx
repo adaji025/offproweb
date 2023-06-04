@@ -6,7 +6,7 @@ const Question = ({ title, info }) => {
     <article className="border-b-[1.5px] border-[#E5E7EB] py-5 w-full">
       <header
         onClick={() => setShowInfo(!showInfo)}
-        className="flex justify-between cursor-pointer w-full whitespace-nowrap"
+        className="flex justify-between cursor-pointer w-full "
       >
         <h4 className="w-full text-base mb-0 pb-1">
           {title}

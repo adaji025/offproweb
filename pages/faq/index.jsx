@@ -185,7 +185,7 @@ function Faq() {
         <img src="/svgs/tee.svg" alt="" className="absolute bottom-0" />
       </div>
 
-      <div className="max-w-[1220px] mx-auto flex gap-2 lg:gap-8 translate-y-[36px] text-[#6B7280] px-4 lg:px-8">
+      <div className="max-w-[1220px] mx-auto flex gap-2 lg:gap-8 translate-y-[36px] text-[#6B7280] px-4 lg:px-8 overflow-auto">
         {cat.map((item, idx) => (
           <span className="flex items-center hover:bg-green rounded-3xl px-4 py-2 hover:text-white  text-sm whitespace-nowrap">
             {item}
@@ -193,7 +193,7 @@ function Faq() {
         ))}
       </div>
       <main className="max-w-[1220px] mx-auto w-full" data-aos="fade-up">
-        <div className="px-8 w-full pb-20 mt-16 lg:mt-2">
+        <div className="px-8 w-full pb-10 mt-16 lg:mt-2">
           <section className="w-full">
             {questions.map((question) => {
               return <Question key={question.id} {...question}></Question>;
