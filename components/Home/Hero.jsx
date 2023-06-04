@@ -7,8 +7,7 @@ const Hero = () => {
   return (
     <div className="max-w-[1220px] mx-auto mt-[102px] px-4">
       <div className="lg:flex">
-        <div className="basis-1/2 px-2"
-         data-aos="zoom-in">
+        <div className="basis-1/2 px-2" data-aos="zoom-in">
           <div className="text-sm sm:text-base mx-auto lg:mx-[unset] flex items-center gap-2 max-w-[385px] rounded-3xl bg-[#F0F0FF]">
             <span className="font-[500] bg-green mr-2 text-white rounded-[45px] py-1 px-3 text-sm ml-1 my-1 ">
               New
@@ -22,11 +21,8 @@ const Hero = () => {
             A technology that makes petty{" "}
             <span className="text-green">cash exchange easier</span>
           </p>
-          <p
-            className="mt-8 px-4 lg:px-0 text-center lg:text-left text-base leading-[24px] lg:w-[90%] lg:text-xl lg:leading-[32px] text-[#6B7280]"
-           
-          >
-            OffPro is a technology that makes petty cash exchange easier and
+          <p className="mt-8 px-4 lg:px-0 text-center lg:text-left text-base leading-[24px] lg:w-[90%] lg:text-xl lg:leading-[32px] text-[#6B7280]">
+            Tappr is a technology that makes petty cash exchange easier and
             better by serving as an intermediary for the transfer of Nigeria’s
             e-naira between two parties.
           </p>
@@ -42,13 +38,12 @@ const Hero = () => {
               <AiFillApple size={24} color="white" />
               <div className="text-white grid">
                 <span className="text-[10px] text-xs">Download on the</span>
-                <span className="text-sm sm:text-lg">Google Play</span>
+                <span className="text-sm sm:text-lg">AppStore</span>
               </div>
             </div>
           </div>
         </div>
-        <div className="basis-2/3 lg:basis-1/2 "
-         data-aos="zoom-in">
+        <div className="basis-2/3 lg:basis-1/2 " data-aos="zoom-in">
           <div className="mt-10 lg:mt-0 flex justify-center lg:justify-end">
             <img className="" src="/images/hero-image.png" alt="hero__image" />
           </div>

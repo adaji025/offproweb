@@ -12,11 +12,14 @@ function Download() {
           </div>
           <div className="basis-1/2" data-aos="zoom-in">
             <p className="text-2xl w-[80%] mx-auto lg:mx-0 lg:text-5xl lg:w-11/12 text-center lg:text-start text-white font-Cabinet_Grotesk">
-              This is a product designed to allow offline transaction
+              The future of cash is here
             </p>
             <p className="w-full text-center lg:text-left lg:w-10/12 text-base lg:text-xl text-white/70 mt-4">
-              This will be a unique product designed to allow offline
-              transactions using an offline-ledger blockchain approach.
+              Experience the future of cashless transactions with Tappr. Say
+              goodbye to the hassles of carrying cash and embrace a seamless,
+              secure, and convenient way to pay for purchases and transfer
+              funds. Join us today and unlock a world of effortless transactions
+              with Tappr.
             </p>
             <div className="flex gap-4 mt-8 lg:mt-14 justify-center lg:justify-start">
               <div className="cursor-pointer w-[150px] sm:w-[218px] bg-[#1A1A1A] rounded-[40px] h-[62px] flex justify-center items-center gap-2 sm:gap-5 hover:scale-105 transition-all duration-300">
@@ -30,7 +33,7 @@ function Download() {
                 <AiFillApple size={24} color="white" />
                 <div className="text-white grid">
                   <span className="text-[10px] text-xs">Download on the</span>
-                  <span className="text-sm sm:text-lg">Google Play</span>
+                  <span className="text-sm sm:text-lg">AppStore</span>
                 </div>
               </div>
             </div>

@@ -10,20 +10,15 @@ function Product() {
         </div>
         <div className="basis-1/2 mt-10">
           <p className="text-2xl leading-[28.8px] lg:leading-[50px] lg:text-[44px] font-bold text-white w-10/12 mx-auto lg:mx-0 lg:w-11/12">
-            This is a product designed to allow offline transaction
+            Innovation like never before
           </p>
-          <p className="text-justify lg:text-left mt-4  lg:w-11/12 text-white text-xl">
-            This will be a unique product designed to allow offline transactions
-            using an offline-ledger blockchain approach. This will be a unique
-            product designed to allow offline transactions using an
-            offline-ledger blockchain approach.This will be a unique product
-            designed to allow offline transactions using a n offline-ledger
-            blockchain approach.This will be a unique product designed to allow
-            offline transactions using an offline-ledger blockchain
-            approach.This will be a unique product designed to allow offline
-            transactions using an offline-ledger blockchain approach.This will
-            be a unique product designed to allow offline transactions using an
-            offline-ledger blockchain approach.
+          <p className="text-center lg:text-left mt-4  lg:w-11/12 text-white text-xl">
+            With a team of dedicated professionals and cutting-edge technology,
+            we are committed to delivering a superior payment experience that
+            revolutionizes the way you handle your finances. Whether you're
+            making purchases at your favorite retail stores, dining at a
+            restaurant, or transferring funds to friends and family, Tappr
+            offers a simple, secure, and convenient solution.
           </p>
         </div>
       </div>
