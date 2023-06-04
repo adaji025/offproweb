@@ -3,12 +3,12 @@ import { TfiAngleUp, TfiAngleDown } from "react-icons/tfi";
 const Question = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
   return (
-    <article className="border-b-[1.5px] border-[#E5E7EB] py-5">
+    <article className="border-b-[1.5px] border-[#E5E7EB] py-5 w-full">
       <header
         onClick={() => setShowInfo(!showInfo)}
-        className="flex justify-between cursor-pointer"
+        className="flex justify-between cursor-pointer w-full whitespace-nowrap"
       >
-        <h4 className="w-[90%] md:w-full text-base font-Grotesk mb-0 pb-1">
+        <h4 className="w-full text-base mb-0 pb-1">
           {title}
         </h4>
         <button className="">

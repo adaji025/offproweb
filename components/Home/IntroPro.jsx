@@ -41,7 +41,7 @@ const items = [
 function IntroPro() {
   return (
     <div
-      className="mt-[99px] max-w-screen-xl mx-auto px-4 lg:px-0 overflow-hidden"
+      className="mt-[99px] max-w-screen-xl mx-auto px-4 lg:px-8 overflow-hidden"
       data-aos="fade-up"
     >
       <p className="text-center text-green font-bold text-[24px]  lg:text-[36px] leading-[44px] lg:leading-[44px]">

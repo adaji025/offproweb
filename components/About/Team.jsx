@@ -54,7 +54,7 @@ const avatars = [
 function Team() {
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto" data-aos="fade-up">
+      <div className="max-w-[1220px] mx-auto px-4 lg:px-8" data-aos="fade-up">
         <p className="text-center font-bold mt-20 text-[36px] text-green">
           Our team
         </p>

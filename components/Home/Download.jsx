@@ -11,7 +11,7 @@ function Download() {
             <img src="/images/app.png" alt="" />
           </div>
           <div className="basis-1/2" data-aos="zoom-in">
-            <p className="text-2xl w-[80%] mx-auto lg:mx-0 lg:text-5xl lg:w-11/12 text-white font-Cabinet_Grotesk">
+            <p className="text-2xl w-[80%] mx-auto lg:mx-0 lg:text-5xl lg:w-11/12 text-center lg:text-start text-white font-Cabinet_Grotesk">
               This is a product designed to allow offline transaction
             </p>
             <p className="w-full text-center lg:text-left lg:w-10/12 text-base lg:text-xl text-white/70 mt-4">

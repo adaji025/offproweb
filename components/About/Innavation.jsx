@@ -35,7 +35,7 @@ function Innovation() {
         <span>Learn more about inner source </span>
         <HiOutlineArrowNarrowRight />
       </p>
-      <div className="max-w-screen-lg px-4 mx-auto justify-center grid lg:grid-cols-3 mt-12 gap-6 pb-40">
+      <div className="max-w-screen-lg px-4 lg:px-8 mx-auto justify-center grid lg:grid-cols-3 mt-12 gap-6 pb-40">
         {cards.map((card) => (
           <div>
             <img className="w-[100%]" src={card.Img} alt={card.title} />

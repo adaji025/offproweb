@@ -5,7 +5,7 @@ import { AiFillApple } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1220px] mx-auto mt-[102px]">
+    <div className="max-w-[1220px] mx-auto mt-[102px] px-4">
       <div className="lg:flex">
         <div className="basis-1/2 px-2"
          data-aos="zoom-in">
