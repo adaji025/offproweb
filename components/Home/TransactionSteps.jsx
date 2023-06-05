@@ -22,7 +22,7 @@ const TransactionSteps = () => {
                 Initiate and
                 <span className="text-green"> Confirm:</span>
               </h3>
-              <p>
+              <p className="text-lg">
                 {" "}
                 Input the payment details and authorize the transaction with a
                 secure <span className="text-green"> PIN.</span>{" "}
@@ -38,7 +38,7 @@ const TransactionSteps = () => {
               <h3 className="text-[22px] lg:text-2xl lg:w-[90%]   font-bold ">
                 Tap:
               </h3>
-              <p> Simply tap your Tappr device or smartphone to transact.</p>
+              <p className="text-lg"> Simply tap your Tappr device or smartphone to transact.</p>
             </div>
             <img src="/images/step2.png" alt="" />
           </div>
@@ -50,7 +50,7 @@ const TransactionSteps = () => {
               <h3 className="text-[22px] lg:text-2xl font-bold ">
                 Go:
               </h3>
-              <p>
+              <p className="text-lg">
                 Enjoy the speed and convenience of a cashless transaction as you
                 swiftly complete your purchase or transfer funds.
               </p>
