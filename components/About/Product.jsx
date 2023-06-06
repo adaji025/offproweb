@@ -9,7 +9,7 @@ function Product() {
           <img src="/svgs/dummy_money.svg" alt="" />
         </div>
         <div className="basis-1/2 mt-10">
-          <p className="text-2xl leading-[28.8px] lg:leading-[50px] lg:text-[44px] font-bold text-white w-10/12 mx-auto lg:mx-0 lg:w-11/12">
+          <p className="text-center lg:text-start text-2xl leading-[28.8px] lg:leading-[50px] lg:text-[44px] font-bold text-white w-10/12 mx-auto lg:mx-0 lg:w-11/12">
             Innovation like never before
           </p>
           <p className="text-center lg:text-left mt-4  lg:w-11/12 text-white text-xl">
